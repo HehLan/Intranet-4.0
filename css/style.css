@@ -1,0 +1,530 @@
+body {
+  background: url("../img/bgAdmin.jpg");
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 0;
+  font-size: 12px;
+  font-family: Calibri, Arial, Times, serif;  
+  color: #ffffff;
+  overflow:hidden;
+}
+a,
+a:visited,
+a:focus,
+a:active {
+  text-decoration: none;
+  color:#ff9900;
+	font-weight:bold;  
+}
+a:hover{
+	color:#ff5500;
+}
+img {
+  border: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 5px;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/*##############################
+####        HEADER           ###
+################################*/
+#header {
+  width: 100%;
+  /*border: 1px solid red;*/
+  margin: auto;
+  padding: 0;
+  height: 100px;
+  background-color:#000000;
+}
+#header #banner {
+  width: 70%;
+  height:100%;
+  float: left;
+  position: relative;
+}
+#header #banner img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+}
+#header #login {
+position: relative;
+  width: 30%;
+  float: right;
+  height: 100%;
+}
+/*##############################
+####        NAVIGATION          ###
+################################*/
+#navigation {
+  width: 100%;
+  margin: auto;
+  margin-top: 0px;
+  background: transparent url("../img/bg_menu.png") repeat-x top left;
+  height: 90px;
+  height: 50px;
+}
+
+#navigation  li {
+  list-style: none;
+  display: block;
+  float: left;
+  height: 50px;
+}
+#navigation  li a {
+  display: block;
+  height: 50px;
+  line-height: 45px;
+  width: auto;
+  text-decoration: none;
+  color: #DDD;
+  text-transform: uppercase;
+  font-family: Calibri, Arial, Times, serif;
+  font-weight: bold;
+  padding: 0 25px;
+  font-size: 1.3em;
+  text-shadow: 1px 1px 1px #353535;
+}
+#navigation  li a:hover,
+#navigation  li a.active {
+  color: #fff;
+  background: transparent url("../img/nav_hover.png") top center repeat-x;
+}
+/*##########################
+#### CONTENU!!!!       ###
+############################*/
+#container{
+ position			: fixed;
+ left				: 0;
+right				: 0;
+top : 0;
+bottom				: 98px;
+width:100%;
+margin-top:152px;
+overflow:auto;
+}
+#container #contenu{
+position:relative;
+padding:10px;
+}
+/*##########################
+#### NEWS      ###
+############################*/
+#container #bloc_news{
+position:relative;
+padding:10px;
+width:50%;
+
+}
+#container #bloc_news .une_news{
+position:relative;
+padding:5px;
+width:95%;
+background-color:#111111;
+margin-bottom:10px;
+margin-top:10px;
+}
+#container #bloc_news .titre_news{
+position:relative;
+padding-top:5px;
+padding-bottom:5px;
+width:100%;
+background-color:#000000;
+margin-bottom:5px;
+overflow-x:hidden;
+font-weight:bold;
+font-size:16px;
+cursor:pointer;
+}
+#container #bloc_news .titre_news:hover{
+color:#ff9900;
+}
+#container #bloc_news .contenu_news{
+position:relative;
+width:100%;
+padding-bottom:10px;
+overflow-x:hidden;
+font-size:12px;
+display:none;
+}
+#container #bloc_news .date_news{
+float:right;
+margin-top:0px;
+margin-right:0px;
+padding-top:5px;
+padding-bottom:5px;
+background-color:#000000;
+font-size:10px;
+color:#999999;
+}
+
+
+
+/*##########################
+####CHAT      ###
+############################*/
+#container #bloc_chat{
+ position			: fixed;
+right				: 30px;
+top : 0;
+bottom				: 98px;
+width:44%;
+margin-top:152px;
+padding:10px;
+overflow:hidden;
+}
+#container #bloc_chat #bloc_chat_titre{
+	position:relative;
+	height:5%;
+	width:90%;
+	overflow:hidden;
+	padding:4px;
+	font-size: 18px;
+	font-weight:bold;
+}
+#container #bloc_chat #bloc_chat_texte{
+	position:relative;
+	float:left;
+	height:80%;
+	width:75%;
+	overflow-y:auto;
+	overflow-x:hidden;
+	background-color:#000000;
+	padding:4px;
+	font-size: 14px;
+}
+#container #bloc_chat #bloc_chat_texte .chatqui{
+	font-size: 12px;
+	color: #AAAAAA;
+}
+
+#container #bloc_chat #bloc_chat_users{
+	position:relative;
+	float:right;
+	height:80%;
+	width:20%;
+	overflow-y:auto;
+	overflow-x:hidden;
+	background-color:#000000;
+	padding:4px;
+	color: #AAAAAA;
+}
+#container #bloc_chat #bloc_chat_users strong{
+	color: #FFFFFF;
+}
+#container #bloc_chat #bloc_chat_send{
+	position:relative;
+	clear:both;
+	width:98%;
+	height:10%;
+	padding-top:10px;
+}
+#container #bloc_chat #bloc_chat_send #bloc_chat_message {
+	width:75%;
+}
+/*##########################
+#### LE FOOTER!!!!       ###
+############################*/
+#footer {
+  width: 100%;
+  position			: fixed;
+	bottom				: 0;
+	left				: 0;
+	right				: 0;
+
+  clear:both;
+  height: 90px;
+  margin: 0 auto;
+  border-top: 8px solid #151515;
+  background-color:#000000;
+}
+#footer #about {
+  width: 33%;
+  height: 100%;
+  float: left;
+  background: none;
+  margin: 1px;
+  text-align: left;
+  
+}
+#footer #about p {
+  margin-top: 45px;
+}
+#footer #nothinghere {
+  width: 33%;
+  height: 100%;
+  float: left;
+  margin: 1px;
+  text-align: center;
+}
+#footer #nothinghere img {
+  margin-top: 5px;
+}
+#footer #social {
+  width: 33%;
+  height: 100%;
+  float: left;
+  margin: 1px;
+  text-align: right;
+}
+#footer #social img {
+  margin-top: 5px;
+}
+/*##########################
+#### LES POOLS       ###
+############################*/
+
+.table_pool_lol{
+border:0px solid #000000;
+
+
+}
+
+.th_titre_pool_lol{
+background-color:#000000;
+font-size:18px;
+padding:5px;
+}
+
+.td_vide_pool_lol{
+background-color:#000000;
+width:150px;
+}
+
+.th_team2_pool_lol{
+background-color:#000000;
+font-size:12px;
+width:100px;
+
+}
+
+.th_score_pool_lol{
+background-color:#000000;
+font-size:14px;
+width:100px;
+}
+
+.tr_pool_lol{
+text-align:center;
+}
+
+.th_team_pool_lol{
+background-color:#000000;
+font-size:16px;
+text-align:left;
+
+}
+
+.td_pool_lol{
+}
+
+.td_win_pool_lol{
+background-color:#449944;
+}
+
+.td_same_pool_lol{
+background-color:#444444;
+}
+
+.td_loose_pool_lol{
+background-color:#990000;
+}
+
+.td_X_pool_lol{
+background-color:#000000;
+}
+
+.td_score_pool_lol{
+background-color:#666666;
+font-size:16px;
+font-weight:bold;
+}
+
+
+/* POOL TM*/
+.table_pool_tm{
+border:0px solid #666666;
+}
+
+.titre_pool_tm{
+background-color:#444444;
+font-size:14px;
+padding:5px;
+}
+
+.th_part_pool_tm{
+background-color:#666666;
+font-size:12px;
+padding:5px;
+}
+
+.th_manche_pool_tm{
+background-color:#666666;
+font-size:12px;
+padding:5px;
+}
+
+.th_points_pool_tm{
+background-color:#666666;
+font-size:12px;
+padding:5px;
+}
+
+.td_pseudo_pool_tm{
+background-color:#444444;
+font-size:12px;
+text-align:left;
+padding:5px;
+}
+
+.td_score_pool_tm{
+background-color:#444444;
+text-align:center;
+font-size:12px;
+}
+
+.td_total_pool_tm{
+background-color:#666666;
+text-align:center;
+font-size:16px;
+font-weight:bold;
+}
+
+/*****************************
+ARBRE
+******************************/
+
+.tr_arbre_vide{
+height:15px;
+}
+.td_arbre_vide{
+height:15px;
+/*width:200px;*/
+}
+.td_arbre_team1{
+background-color:#666666;
+font-size:14px;
+padding:2px;
+}
+.td_arbre_team2{
+background-color:#444444;
+font-size:14px;
+padding:2px;
+}
+.td_arbre_teamwin{
+background-color:#449944;
+font-size:14px;
+padding:2px;
+font-weight:bold;
+}
+.td_arbre_joueur{
+background-color:#444444;
+font-size:14px;
+padding:2px;
+}
+.td_arbre_score1{
+background-color:#666666;
+width:40px;
+text-align:center;
+font-size:14px;
+}
+.td_arbre_score2{
+background-color:#444444;
+width:40px;
+text-align:center;
+font-size:14px;
+}
+.td_arbre_joueur_score{
+background-color:#444444;
+width:40px;
+text-align:center;
+font-size:14px;
+}
+.td_arbre_joueur_total{
+background-color:#666666;
+width:40px;
+text-align:center;
+font-size:14px;
+font-weight:bold;
+}
+.td_arbre_scorewin{
+background-color:#449944;
+width:40px;
+text-align:center;
+font-size:14px;
+font-weight:bold;
+}
+.td_arbre_gauche{
+width:10px;
+}
+.td_arbre_droite{
+width:30px;
+}
+.td_finale_vide{
+text-align:center;
+font-size:14px;
+color:#9999FF;
+}
+.th_arbre_joueur{
+font-size:12px;
+background-color:#666666;
+}
+
+/*--------------------------
+ZONE ADMIN
+---------------------------*/
+#adm_tablo{
+border:1px solid white;
+}
+#adm_tablo tr{
+/*border:1px solid white;*/
+}
+#adm_tablo td{
+border:1px solid #999999;
+text-align:center;
+}
+#adm_tablo th{
+border:1px solid #9999FF;
+}
+#shadowing
+{
+  display: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: #666666;
+  z-index:80;
+  opacity:0.5;
+  filter: alpha(opacity=50);
+}
+.popup_centree{
+	visibility:hidden;
+	background-color:#000000;
+	position:fixed;
+	left: 50%;
+	top: 50%; 
+	z-index: 100;
+	border: 4px solid #888888;
+	padding: 20px 20px 20px 20px;
+	overflow:auto;
+}
+/*--Gérer la position fixed pour IE6--*/
+*html .popup_centree {
+position: absolute;
+}

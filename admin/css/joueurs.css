@@ -1,0 +1,84 @@
+    div#ListejoueurAdmin legend{
+        font-size: 14px;
+        margin: 5px;
+        font-weight: bold;
+    }
+    div#ListejoueurAdmin fieldset{
+        font-size: 16px;
+        margin: 5px;
+        font-weight: bold;
+        padding-top: 5px;
+        padding-bottom: 5px
+    }
+    table.listeJoueurs {
+        text-align: center;
+        color: #CCC; 
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        width: 95%; 
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin:auto;
+        margin-top:10px;
+    }
+    
+    .listeJoueurs td, th {
+        border: 1px solid #CCC;
+        width: 50%;
+    } 
+    
+    .listeJoueurs th {
+        background: none;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    .listeJoueurs td {
+        background: none; 
+        text-align: center; 
+    }
+    div#ListejoueurAdmin div{
+        height: 300px;
+        overflow: auto;
+        border: 1px silver solid;
+    }
+    h6.joueurAdmin, h6.EquipeJoueurAdmin {
+        font-size: 16px;
+        font-weight: normal;
+        cursor: pointer;
+    }
+    div#ListejoueurAdmin input[type='button']{
+        background: none;
+        color: #fff;
+        width: 200px;
+        font-size: 16px;
+        font-weight: bold;
+        height: 50px;
+        margin-top: 20px;
+        cursor: pointer;
+        float: right;
+        margin-right:40px;
+    }
+    table.imgJeuxJoueurs{
+        width: 95%;
+        margin: auto;
+        margin-top: 30px;
+    }
+    img.imgJeuxJoueurs{
+        width: 20px;
+        height:20px;
+    }
+    table.imgJeuxJoueurs td, th{
+        width: 25%;
+    }
+    div#ListejoueurAdmin div#InfoJoueurEquipes {
+        font: normal 14px Calibri, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        height: 150px;
+    }
+
+    

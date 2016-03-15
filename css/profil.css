@@ -1,0 +1,186 @@
+/*############################
+####      Inscription      ###
+##############################*/
+#formInscription {
+  font: normal 18px Calibri, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#formInscription input,
+#formInscription textarea,
+#formInscription legend,
+#formInscription label,
+#formInscription select {
+  background: none;
+  color: #fff;
+}
+#formInscription option {
+  background: #fff;
+}
+#formInscription fieldset {
+  padding-left: 100px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+#formInscription fieldset label {
+  display: inline-block;
+  width: 250px;
+  font: normal 1em Calibri, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+#formInscription fieldset label[for=radio_homme],
+#formInscription fieldset label[for=radio_femme] {
+  width: auto;
+  background: none;
+}
+#formInscription fieldset input[type=checkbox] span {
+  width: 300px;
+  display: block;
+  font-size: 18px;
+}
+#formInscription fieldset input[type=checkbox] {
+  margin-bottom: 10px;
+}
+#formInscription fieldset input[type=text],
+#formInscription input[type=password],
+#formInscription select {
+  font: normal 16px Calibri, Arial, sans-serif;
+  width: 300px;
+  margin-bottom: 10px;
+}
+#formInscription fieldset legend {
+  font: normal 1.5em Verdana, Arial, sans-serif;
+  margin-left: -70px;
+}
+#formInscription input#submitInscription {
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#formInscription input#submitInscription:hover {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 1px 1px 5px #57BADA;
+}
+#formInscription fieldset#equipe div {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #fff;
+  width: 590px;
+}
+#formInscription h1 {
+  border-bottom: 4px solid #fff;
+  font-size: xx-large;
+  letter-spacing: 10pt;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-family: Cambria ;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  text-shadow: 1px 1px 10px #57BADA;
+}
+#formInscription a,
+#formInscription a:visited {
+  text-decoration: underline;
+  color: #fff;
+  cursor: pointer;
+}
+#formInscription a:hover,
+#formInscription a:focus,
+#formInscription a:active {
+  text-decoration: none;
+  color: #57BADA;
+  text-shadow: 1px 1px 2px #fff;
+  cursor: pointer;
+}
+
+/*******************************
+*         Modif Profil
+********************************/
+
+#ModifEmail,#ModifMDP{
+	display: none;
+    }
+#formModifProfil input[type='text']{
+	text-align: center;
+	background-color: rgba(126,126,126,0.3);
+    }
+#formModifProfil input[type='button']{
+	width: 400px;
+	font-size: 14px;
+	height: 30px;
+	margin-top: 5px;
+	cursor: pointer;
+	font-weight:bold;
+	background-color:#999999;
+    }
+#formModifProfil input[type='button']:hover{
+	background-color: rgba(126,126,126,0.5);
+    }
+fieldset#ModifMDP {
+	border: 1px solid #fff;
+	padding: 20px;
+	margin-top: 30px;
+	margin-left: -30px;
+	margin-right: 50px;
+	
+    }
+    
+fieldset#ModifMDP label {
+	
+	margin-left: 8px;
+	width: 255px;
+    }
+fieldset#ModifMDP legend {
+	
+	margin-left: 10px;
+	font-size : 16px;
+    }
+#submitChgtMDP{
+	margin-left: 80px;
+    }
+input[type='button']#afficheModifProfil {
+	
+	width: 400px;
+	height: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	background-color:#999999;
+    }
+strong#votreTeam {
+	display:  inline-block;
+	text-align: center;
+	margin-left: 130px;
+	font-size: 18px;
+	width: 300px;
+	padding: 5px;
+	border: 1px dotted #fff;
+	margin-bottom: 30px;
+    }
+input[type='button']#rejoindreUneTeam, input[type='button']#rejoindreAutreTeam {
+	width: 300px;
+	margin-bottom: 20px;
+    }
+input[type='button']#quitterTeam, input[type='button']#newTeam {
+	margin-left: -30px;
+	margin-right: 20px;
+	width: 300px;
+	margin-bottom: 20px;
+    }
+input[type='button']#submitNewTeam, input[type='button']#submitRejoindreTeam {
+	margin-left: 80px;
+	margin-top: 0px;
+	margin-bottom:20px;
+    }
+#MenuProfil {
+    background : rgba(0,0,256,0.3);
+}

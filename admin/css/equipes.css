@@ -1,0 +1,160 @@
+    div#ListeEquipeAdmin legend{
+        font-size: 16px;
+        margin: 5px;
+        font-weight: bold;
+    }
+    div#ListeEquipeAdmin fieldset{
+        font-size: 16px;
+        margin: 5px;
+        font-weight: bold;
+        padding-top: 5px;
+        padding-bottom: 5px
+    }
+    table.listeEquipes {
+        text-align: center;
+        color: #CCC; 
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        width: 95%; 
+        border-collapse: collapse;
+        border-spacing: 0;
+        margin:auto;
+        margin-top:5px;
+    }
+    
+    .listeEquipes td, th {
+        border: 1px solid #CCC;
+        width: 50%;
+    } 
+    
+    .listeEquipes th {
+        background: none;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    .listeEquipes td {
+        background: none; 
+        text-align: center; 
+    }
+    div#ListeEquipeAdmin div{
+        height: 320px;
+        overflow: auto;
+        border: 1px silver solid;
+    }
+    div#ListeEquipeAdmin div#listeEquipeJoueurAdmin{
+        height: 260px;
+        overflow: auto;
+        border: 1px silver solid;
+    }
+    h6.EquipeAdmin, h6.EquipeJoueurAdmin {
+        font-size: 14px;
+        font-weight: normal;
+        cursor: pointer;
+    }
+    div#ListeEquipeAdmin input[type='button']{
+        background: none;
+        color: #fff;
+        width: 400px;
+        font-size: 14px;
+        font-weight: bold;
+        height: 25px;
+        margin-top: 5px;
+        cursor: pointer;
+        float: right;
+        margin-right:10px;
+    }
+    div#ListeEquipeAdmin input[type='button']#submitNewPlayerInTeam{
+        margin: auto;
+        margin-top:5px;
+        margin-bottom:5px;
+        float: none;
+        width: 95%;
+    }
+    table.imgJeuxJoueurs{
+        width: 95%;
+        margin: auto;
+        margin-top: 5px;
+    }
+    img.imgJeuxJoueurs{
+        width: 20px;
+        height:20px;
+    }
+    table.imgJeuxJoueurs td, th{
+        width: 25%;
+    }
+    div#ListeEquipeAdmin div#InfoJoueurEquipes {
+        font: normal 16px Calibri, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        height: 240px;
+    }
+    #InfoJoueurEquipes input,
+    #InfoJoueurEquipes textarea,
+    #InfoJoueurEquipes legend,
+    #InfoJoueurEquipes label,
+    #InfoJoueurEquipes select {
+      background: none;
+      color: #fff;
+    }
+    #InfoJoueurEquipes input[type=text],
+    #InfoJoueurEquipes input[type=password],
+    #InfoJoueurEquipes select {
+      font: normal 14px Calibri, Arial, sans-serif;
+      width: 300px;
+      margin-bottom: 2px;
+      text-align: center;
+    }
+    #InfoJoueurEquipes label {
+        display: inline-block;
+        width: 250px;
+        font: normal 1em Calibri, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 2px;
+    }
+#ListeEquipeAdmin div#creerTeamAdmin {
+  font: normal 14px Calibri, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  height: auto;
+}
+#creerTeamAdmin input,
+#creerTeamAdmin legend,
+#creerTeamAdmin label {
+  background: none;
+  color: #fff;
+  margin-top: 10px;
+}
+
+#creerTeamAdmin label {
+  display: inline-block;
+  width: 250px;
+  font: normal 1em Calibri, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+#creerTeamAdmin input[type=text],
+#creerTeamAdmin input[type=password] {
+  font: normal 14px Calibri, Arial, sans-serif;
+  width: 300px;
+  margin-bottom: 5px;
+}
+#creerTeamAdmin legend {
+  font: normal 1.5em Verdana, Arial, sans-serif;
+  margin-left: -70px;
+}
+div#creerTeamAdmin div {
+  width: auto;
+  height: auto;
+}
+
+    

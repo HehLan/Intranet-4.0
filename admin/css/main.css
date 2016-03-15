@@ -1,0 +1,899 @@
+body {
+  background: url("/img/bg/bg_site4.jpg") top center no-repeat;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 0;
+  font-size: 12px;
+  color: #ffffff;
+}
+a,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 5px;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+/*##############################
+####        TOP              ###
+################################*/
+#top {
+  min-width: 1021px;
+  width: 100%;
+  /*border: 1px solid red;*/
+  margin: auto;
+  padding: 0;
+}
+#top #top-content {
+  width: 1021px;
+  margin: auto;
+  padding-top: 8px;
+  height: 40px;
+}
+#top #top-left {
+  width: 510.5px;
+  float: left;
+}
+#top #top-right {
+  width: 510.5px;
+  float: left;
+  text-align: right;
+}
+/*##############################
+####        HEADER           ###
+################################*/
+#header {
+  width: 1021px;
+  /*border: 1px solid red;*/
+  margin: auto;
+  padding: 0;
+  height: 205px;
+}
+#header #banner {
+  width: 70%;
+  padding-top: 35px;
+  float: left;
+  height: 170px;
+  position: relative;
+}
+#header #banner img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+}
+#header #login {
+  width: 30%;
+  float: left;
+  height: 205px;
+}
+/*##############################
+####        CONTENT          ###
+################################*/
+#navigation {
+  width: 1021px;
+  margin: auto;
+  margin-top: 10px;
+  /*background: transparent url("/img/bg/bg_menu.png") repeat-x top left;*/
+  height: 90px;
+  height: 50px;
+}
+#navigation #nav-left {
+  float: left;
+  width: 4px;
+  height: 50px;
+  background: url("/img/bg/menu-left_bg.png") top left;
+}
+#navigation #nav-center {
+  height: 50px;
+  background: url("/img/bg/nav-center_bg.png") repeat-x bottom left;
+  padding-left: 24px;
+  float: left;
+  width: 987px;
+  /* 1020 - 8(nav-left & right) - 25(padding)  */
+}
+#navigation #nav-center li {
+  list-style: none;
+  display: block;
+  float: left;
+  height: 50px;
+}
+#navigation #nav-center li a {
+  display: block;
+  height: 50px;
+  line-height: 45px;
+  width: auto;
+  text-decoration: none;
+  color: #DDD;
+  text-transform: uppercase;
+  font-family: Calibri, Arial, Times, serif;
+  font-weight: bold;
+  padding: 0 25px;
+  font-size: 1.3em;
+  text-shadow: 1px 1px 1px #353535;
+}
+#navigation #nav-center li a:hover,
+#navigation #nav-center li a.active {
+  color: #fff;
+  background: transparent url("/img/btn/nav_hover.png") top center repeat-x;
+}
+#navigation #nav-right {
+  width: 4px;
+  height: 50px;
+  float: left;
+  background-image: url("/img/bg/menu-right_bg.png");
+}
+#navigation #submenu {
+  float: left;
+  height: 40px;
+  width: 100%;
+  background: url("/img/bg/sousmenu.png");
+}
+/*###############################
+##        ACTU + SLIDER		#
+#################################*/
+/*LEFT*/
+#bloc1 {
+  width: 1021px;
+  margin: auto;
+  overflow: hidden;
+  margin-top: 7px;
+  height: 315px;
+  /*#########################
+	##    LE SLIDER         ###
+	###########################*/
+}
+#bloc1 #bloc1-left {
+  width: 33%;
+  height: 100%;
+  float: left;
+  padding: 0 2px;
+  background: url("/img/bg/news_bg.png") top left no-repeat;
+}
+#bloc1 #bloc1-slider {
+  width: 66%;
+  height: 302px;
+  float: left;
+  padding: 0 2px;
+  overflow: hidden;
+  background: #000;
+}
+#bloc1 #titre-news {
+  height: 50px;
+  position: relative;
+}
+#bloc1 #titre-news a {
+  text-decoration: none;
+}
+#bloc1 #titre-news img {
+  margin-top: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  max-width: 32px;
+  max-height: 34px;
+  border: none;
+}
+#bloc1 #titre-news a h2 {
+  line-height: 45px;
+  margin-left: 70px;
+  text-transform: uppercase;
+  color: #FFF;
+  font-family: Calibri, Arial, Times, sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-size: 2em;
+  display: inline-block;
+}
+/*############################
+###        LES NEWS         ##
+##############################*/
+#news-main {
+  padding-left: 10px;
+  float: left;
+  width: 312px;
+  overflow: hidden;
+  height: 45px;
+}
+#news-main .date {
+  width: 54px;
+  height: 33px;
+  padding-top: 13px;
+  text-align: center;
+  font-family: "Verdana", Arial;
+  font-size: 12px;
+  text-shadow: 1px 1px 1px black;
+  color: #ffffff;
+  z-index: 1;
+  float: left;
+}
+#news-main .headline {
+  width: 253px;
+  height: 31px;
+  margin-top: 1px;
+  padding-top: 15px;
+  padding-left: 5px;
+  font-family: "Verdana", Arial;
+  font-size: 13px;
+  float: left;
+  z-index: 11;
+  overflow: hidden;
+}
+#news-main:hover {
+  background: url("/img/btn/news_hover.png") top left no-repeat;
+  z-index: 1;
+  font-weight: bold;
+}
+/*##########################
+#### LES INFORMATIONS    ###
+############################*/
+#accordionInfo {
+  padding-right: 8px;
+  color: #fff;
+}
+#accordionInfo h3 {
+  text-transform: uppercase;
+  background: none;
+  text-shadow: 0px 0px 8px #57BADA;
+  font-size: x-large;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 8pt;
+}
+#accordionInfo h1 {
+  text-transform: uppercase;
+  border-bottom: 2px solid #666;
+  font-family: Calibri, Arial, sans-serif;
+  color: #000;
+  letter-spacing: 5pt;
+  text-shadow: #ffffff 1px 1px 2px, #000000 -1px 1px 2px, #ffffff -1px -1px 2px, #ffffff 1px -1px 2px;
+  background: none;
+}
+#accordionInfo a,
+#accordionInfo a:visited {
+  text-decoration: underline;
+  color: #fff;
+}
+#accordionInfo a:hover,
+#accordionInfo a:focus,
+#accordionInfo a:active {
+  text-decoration: none;
+  color: #57BADA;
+  text-shadow: 1px 1px 3px #fff;
+}
+#accordionInfo p,
+#accordionInfo li {
+  font-family: Arial, Calibri, sans-serif;
+  font-size: 1.1em;
+  color: #fff;
+}
+#accordionInfo div.information h1 + p {
+  border-top: 2px solid #999;
+  margin-top: 0;
+  padding-top: 10px;
+}
+.ui-accordion .ui-accordion-content,
+.ui-accordion .ui-accordion-header {
+  background: none;
+}
+/*RIGHT*/
+#bloc2 {
+  color: #fff;
+  width: 1021px;
+  margin: auto;
+  margin-top: 1px;
+  position: relative;
+  overflow: hidden;
+  background: url(/img/bg/bgtest1.jpg) top left repeat;
+  border-top: 5px solid #151515;
+}
+#bloc2 #left-panel {
+  width: 74%;
+  padding: 5px 10px;
+  min-height: 1000px;
+  background: url(/img/separator.png) 755px repeat-y;
+  position: relative;
+}
+#bloc2 #right-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 22%;
+  padding: 5px 10px;
+}
+#bloc2 #right-panel h3 {
+  text-transform: uppercase;
+  font-family: Calibri, Arial, sans-serif;
+  font-size: 2em;
+  font-weight: normal;
+  padding-left: 40px;
+  padding-bottom: 5px;
+  height: 32px;
+  color: #57BADA;
+  background: url(/img/h2_image.png) 2px 6px no-repeat;
+}
+#bloc2 #right-panel #sponsors {
+  width: 100%;
+  min-height: 700px;
+}
+#bloc2 #right-panel #partenaires {
+  width: 100%;
+  min-height: 200px;
+}
+#bloc2 #left-fondu {
+  width: 25px;
+  height: 100%;
+  background: url(/img/left-fondu.png) top left repeat-y;
+  position: absolute;
+  top: 0;
+  left: -14px;
+}
+#bloc2 #right-fondu {
+  width: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url(/img/right-fondu.png) top right repeat-y;
+  height: 100%;
+}
+.clear {
+  clear: both;
+}
+/*##########################
+#### LE FOOTER!!!!       ###
+############################*/
+#footer {
+  width: 1021px;
+  height: 100px;
+  margin: 0 auto;
+  background: black;
+  border-top: 8px solid #151515;
+}
+#footer #about {
+  width: 33%;
+  height: 100%;
+  float: left;
+  background: none;
+  margin: 1px;
+  text-align: center;
+}
+#footer #about p {
+  margin-top: 45px;
+}
+#footer #nothinghere {
+  width: 33%;
+  height: 100%;
+  float: left;
+  background: none;
+  margin: 1px;
+  text-align: center;
+}
+#footer #nothinghere img {
+  margin-top: 20px;
+}
+#footer #social {
+  width: 33%;
+  height: 100%;
+  float: left;
+  background: none;
+  margin: 1px;
+  text-align: center;
+}
+#footer #social img {
+  margin-top: 20px;
+}
+/*##########################
+####      Contact        ###
+############################*/
+#contact h2 {
+  border-bottom: 2px solid #aaa;
+  font-size: 2em;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#contact form label {
+  display: inline-block;
+  width: 150px;
+  font: normal 1.4em Arial, sans-serif;
+  margin: 5px 0;
+}
+#contact #formContact {
+  margin-left: auto;
+  margin-right: auto;
+  width: 620px;
+}
+#contact input,
+#contact textarea {
+  background: none;
+  color: #fff;
+}
+/*##########################
+####      accueil        ###
+############################*/
+#accueil p {
+  color: #fff;
+  font-size: x-large;
+  font-family: Cambria ;
+  text-align: justify;
+  padding: 20px;
+  line-height: 30pt;
+}
+#accueil h1 {
+  border-bottom: 4px solid #fff;
+  font-size: xx-large;
+  letter-spacing: 10pt;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-family: Cambria ;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  text-shadow: 1px 1px 10px #57BADA;
+}
+#accueil .sincrire {
+  color: #57BADA;
+  text-decoration: none;
+  font-size: xx-large;
+  text-align: center;
+}
+#accueil div.sincrire {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  border: 4px solid #57BADA;
+  padding: 10px;
+}
+#accueil a,
+#accueil a:visited {
+  text-decoration: underline;
+  color: #fff;
+}
+#accueil a:hover,
+#accueil a:focus,
+#accueil a:active {
+  text-decoration: none;
+  color: #57BADA;
+  text-shadow: 1px 1px 3px #fff;
+}
+#accueil p#video {
+  text-align: center;
+}
+/*##########################
+####       LES JEUX      ###
+############################*/
+#tabsGames {
+  padding-right: 8px;
+  color: #fff;
+  background: none;
+}
+#tabsGames h3 {
+  text-transform: uppercase;
+  background: none;
+  text-shadow: 0px 0px 8px #57BADA;
+  font-size: x-large;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 8pt;
+}
+#tabsGames h1 {
+  text-transform: uppercase;
+  border-bottom: 2px solid #666;
+  font-family: Calibri, Arial, sans-serif;
+  color: #000;
+  letter-spacing: 5pt;
+  text-shadow: #ffffff 1px 1px 2px, #000000 -1px 1px 2px, #ffffff -1px -1px 2px, #ffffff 1px -1px 2px;
+  background: none;
+}
+#tabsGames a,
+#tabsGames a:visited {
+  text-decoration: none;
+  color: #57BADA;
+  font-size: normal;
+  font-weight: bold;
+  letter-spacing: 1pt;
+}
+#tabsGames a:hover,
+#tabsGames a:focus,
+#tabsGames a:active {
+  text-decoration: none;
+  color: #57BADA;
+  text-shadow: 1px 1px 3px #000;
+  font-size: normal;
+  font-weight: bold;
+  letter-spacing: 1pt;
+}
+#tabsGames p,
+#tabsGames li {
+  font-family: Arial, Calibri, sans-serif;
+  font-size: 1.1em;
+  color: #57BADA;
+}
+#tabsGames .ui-accordion .ui-accordion-content {
+  color: #fff;
+  text-align: justify;
+}
+#tabsGames .ui-widget-header {
+  background: none;
+}
+#tabsGames .ui-state-active a {
+  color: #000;
+  text-shadow: 1px 1px 3px #57BADA;
+}
+/*############################
+####      Inscription      ###
+##############################*/
+#formInscription {
+  font: normal 18px Calibri, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#formInscription input,
+#formInscription textarea,
+#formInscription legend,
+#formInscription label,
+#formInscription select {
+  background: none;
+  color: #fff;
+}
+#formInscription option {
+  background: #fff;
+}
+#formInscription fieldset {
+  padding-left: 100px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+#formInscription fieldset label {
+  display: inline-block;
+  width: 250px;
+  font: normal 1em Calibri, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+#formInscription fieldset label[for=radio_homme],
+#formInscription fieldset label[for=radio_femme] {
+  width: auto;
+  background: none;
+}
+#formInscription fieldset input[type=checkbox] span {
+  width: 300px;
+  display: block;
+  font-size: 18px;
+}
+#formInscription fieldset input[type=checkbox] {
+  margin-bottom: 10px;
+}
+#formInscription fieldset input[type=text],
+#formInscription input[type=password],
+#formInscription select {
+  font: normal 16px Calibri, Arial, sans-serif;
+  width: 300px;
+  margin-bottom: 10px;
+}
+#formInscription fieldset legend {
+  font: normal 1.5em Verdana, Arial, sans-serif;
+  margin-left: -70px;
+}
+#formInscription input#submitInscription {
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#formInscription input#submitInscription:hover {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 1px 1px 5px #57BADA;
+}
+#formInscription fieldset#equipe div {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #fff;
+  width: 590px;
+}
+#formInscription h1 {
+  border-bottom: 4px solid #fff;
+  font-size: xx-large;
+  letter-spacing: 10pt;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-family: Cambria ;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  text-shadow: 1px 1px 10px #57BADA;
+}
+#formInscription a,
+#formInscription a:visited {
+  text-decoration: underline;
+  color: #fff;
+  cursor: pointer;
+}
+#formInscription a:hover,
+#formInscription a:focus,
+#formInscription a:active {
+  text-decoration: none;
+  color: #57BADA;
+  text-shadow: 1px 1px 2px #fff;
+  cursor: pointer;
+}
+/*############################
+####informations reglements###
+##############################*/
+#tabsReglement {
+  padding-right: 8px;
+  color: #fff;
+  background: none;
+}
+#tabsReglement h3 {
+  text-transform: uppercase;
+  background: none;
+  text-shadow: 0px 0px 8px #57BADA;
+  font-size: x-large;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 8pt;
+}
+#tabsReglement a,
+#tabsReglement a:visited {
+  text-decoration: none;
+  color: #57BADA;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1pt;
+}
+#tabsReglement a:hover,
+#tabsReglement a:focus,
+#tabsReglement a:active {
+  text-decoration: none;
+  color: #57BADA;
+  text-shadow: 1px 1px 3px #000;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1pt;
+}
+#tabsReglement p,
+#tabsReglement li {
+  font-family: Arial, Calibri, sans-serif;
+  font-size: 1.1em;
+  color: #57BADA;
+}
+#tabsReglement .ui-accordion .ui-accordion-content {
+  color: #fff;
+  text-align: justify;
+}
+#tabsReglement .ui-widget-header {
+  background: none;
+}
+#tabsReglement .ui-state-active a {
+  color: #000;
+  text-shadow: 1px 1px 3px #57BADA;
+}
+
+/*************************************
+ *          tableau des inscrits     *
+ ************************************/
+table#listeInscrit{
+    width:100%;
+    margin:0 auto;
+    border:2px silver solid;
+    font-size: 12px;
+    table-layout:fixed;
+    word-wrap: break-word;
+    border-collapse: separate;
+    
+}
+
+#listeInscrit td,th{
+    color: white;
+    border:1px silver solid;
+    text-align:center;
+    vertical-align:middle;
+    background-repeat:no-repeat;
+    background-position:center;
+    width: 60px;
+    overflow: hidden;
+    
+}
+#listeInscrit td:nth-child(2),th:nth-child(2),td:nth-child(3),th:nth-child(3){
+    width: 160px;
+    
+}
+#listeInscrit th{
+    
+    font-size: 20px;
+    background: rgba(126,126,126,0.5);
+    text-shadow: 1px 1px 8px #57BADA;
+}
+
+
+#listeInscrit tfoot{
+   
+    font-size: 10px;
+    background: rgba(126,126,126,0.2);
+}
+
+#listeInscrit img{
+    width: 40px;
+    height: 40px;
+}
+#listeInscrit tbody tr:hover {
+  background: rgba(87,186,218,0.4);
+}
+
+
+/*******************************
+*         connexion
+********************************/
+
+#formConnexion{
+	display: none;
+}
+#infoZoneConnexion{
+    color: #fff;
+	font-family: Calibri, Arial, Times, serif;
+    font-size: 12px;
+}
+#infoZoneConnexion strong{
+    margin-right: 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 15px #57bada;
+}
+#infoZoneConnexion a, a:visited{
+    color: #fff;
+    text-decoration: underline;
+    font-size: 16px;
+    text-transform:uppercase;
+	
+	font-family: Calibri, Arial, Times, serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #353535;
+}
+
+#infoZoneConnexion a:hover, a:focus, a:active {
+    text-decoration: underline;
+    color: #57BADA;
+    text-shadow: 1px 1px 3px #fff;
+    text-transform:uppercase;
+    cursor: pointer;
+	font-family: Calibri, Arial, Times, serif;
+	font-weight: bold;
+}
+#afficheMDPoublie:hover{
+	cursor:pointer;
+	font-weight:bold;
+	text-decoration:underline;
+}
+#formConnexion input[type='text'],#formConnexion input[type='password']{
+	width:200px;
+}
+#formConnexion input[type='button']{
+	width:100px;
+	height:25px;
+	font-weight:bold;
+	font-size:15px;
+	cursor:pointer;
+}
+#formMDPoublie input[type='text'],#formMDPoublie input[type='password']{
+	width:220px;
+}
+#formMDPoublie input[type='button']{
+	width:100px;
+	height:25px;
+	font-weight:bold;
+	font-size:15px;
+	cursor:pointer;
+}
+
+
+/*******************************
+*         Modif Profil
+********************************/
+
+#ModifEmail,#ModifMDP{
+	display: none;
+    }
+#formModifProfil input[type='text']{
+	text-align: center;
+	background-color: rgba(126,126,126,0.3);
+    }
+#formModifProfil input[type='button']{
+	width: 400px;
+	font-size: 18px;
+	height: 30px;
+	margin-top: 20px;
+	cursor: pointer;
+    }
+#formModifProfil input[type='button']:hover{
+	background-color: rgba(126,126,126,0.5);
+    }
+fieldset#ModifMDP {
+	border: 1px solid #fff;
+	padding: 20px;
+	margin-top: 30px;
+	margin-left: -30px;
+	margin-right: 50px;
+    }
+    
+fieldset#ModifMDP label {
+	
+	margin-left: 8px;
+	width: 255px;
+    }
+fieldset#ModifMDP legend {
+	
+	margin-left: 10px;
+	font-size : 20px;
+    }
+#submitChgtMDP{
+	margin-left: 80px;
+    }
+input[type='button']#afficheModifProfil {
+	
+	width: 400px;
+	height: 60px;
+	font-size: 30px;
+	font-weight: bold;
+    }
+strong#votreTeam {
+	display:  inline-block;
+	text-align: center;
+	margin-left: 130px;
+	font-size: 25px;
+	width: 300px;
+	padding: 5px;
+	border: 1px dotted #fff;
+	margin-bottom: 30px;
+    }
+input[type='button']#rejoindreUneTeam, input[type='button']#rejoindreAutreTeam {
+	width: 300px;
+	margin-bottom: 20px;
+    }
+input[type='button']#quitterTeam, input[type='button']#newTeam {
+	margin-left: -30px;
+	margin-right: 20px;
+	width: 300px;
+	margin-bottom: 20px;
+    }
+input[type='button']#submitNewTeam, input[type='button']#submitRejoindreTeam {
+	margin-left: 80px;
+	margin-top: 0px;
+	margin-bottom:20px;
+    }
+#MenuProfil {
+    background : rgba(0,0,256,0.3);
+}
+
+
+
+
